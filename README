@@ -1,0 +1,14 @@
+# The following conditions should be met:
+
+## Part 1:
+- Infrastructure provisioning should be based on IaC ( Infrastructure As Code)
+- Create 3 machines
+        ◦ as Jenkins server [ with installed with Jenkins, Terraform and Ansible]. This is already done for you. You only need a few tweaks
+        ◦ Install APP Server machine with running Tomcat Server and Nodejs  [ Try use Jenkins to do this].
+        ◦ Install  Web Server machine with Nginx on it    [ Try use Jenkins to do this]
+
+## Part 2:
+    • Use Jenkins to deploy a Java App to the APP server node-pools
+    • Use Jenkins to deploy Nodejs app to the app server
+    • Direct access to the apps over a port must be blocked
+    • Configure nginx to proxy to the java app and nodejs app
